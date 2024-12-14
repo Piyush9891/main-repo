@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Piyush Bhardwaj - FrontEnd Developer</title>
+    <style>
+        /* General Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background-color: #f8f9fa;
+            color: #333;
+        }
+
+        /* Header */
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background: #3d0755;
+            padding: 15px 30px;
+        }
+
+        header h1 {
+            color: #fff;
+            font-size: 24px;
+        }
+
+        header span {
+            color: #ffa500;
+        }
+
+        nav ul {
+            display: flex;
+            list-style: none;
+        }
+
+        nav ul li {
+            margin: 0 10px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #fff;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+
+        nav ul li a:hover {
+            color: #ffa500;
+        }
+
+        /* Hero Section */
+        .hero {
+            background: linear-gradient(to right, #3d0755, #6c089f);
+            color: #fff;
+            padding: 80px 20px;
+            text-align: center;
+        }
+
+        .hero h2 {
+            font-size: 36px;
+            margin-bottom: 10px;
+        }
+
+        .hero h1 {
+            font-size: 48px;
+            margin-bottom: 15px;
+        }
+
+        .hero p {
+            font-size: 18px;
+            margin-bottom: 30px;
+        }
+
+        /* Ideas Section */
+        .ideas {
+            background-color: #fff;
+            padding: 50px 20px;
+            text-align: center;
+        }
+
+        .ideas h2 {
+            font-size: 32px;
+            color: #3d0755;
+        }
+
+        .ideas span {
+            color: #ffa500;
+            font-weight: bold;
+        }
+
+        .ideas p {
+            margin-top: 10px;
+            color: #555;
+        }
+
+        /* Portfolio Section */
+        .portfolio {
+            background: #f8f9fa;
+            padding: 50px 20px;
+            text-align: center;
+        }
+
+        .portfolio h2 {
+            font-size: 32px;
+            margin-bottom: 20px;
+            color: #3d0755;
+        }
+
+        .projects {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        .project {
+            background: #fff;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            width: 300px;
+            padding: 20px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: all 0.3s ease-in-out;
+        }
+
+        .project h3 {
+            font-size: 20px;
+            color: #3d0755;
+            margin-bottom: 10px;
+        }
+
+        .project p {
+            color: #555;
+            line-height: 1.5;
+        }
+
+        .project:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+        }
+    </style>
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="logo">
+            <a href="#">
+                <img src="logo.png" alt="Piyush Bhardwaj Logo" style="height: 50px;">
+            </a>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#">HOME</a></li>
+                <li><a href="#about">ABOUT ME</a></li>
+                <li><a href="#skills">SKILLS</a></li>
+                <li><a href="#services">SERVICES</a></li>
+                <li><a href="#portfolio">PORTFOLIO</a></li>
+                <li><a href="#testimonials">TESTIMONIAL</a></li>
+                <li><a href="#pricing">PRICING</a></li>
+                <li><a href="#contact">CONTACT</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="content">
+            <h2>Piyush Bhardwaj</h2>
+            <h1>FrontEnd Developer</h1>
+            <p>I am a front-end developer currently studying in first year of xyz college.</p>
+        </div>
+    </section>
+
+    <!-- Ideas Section -->
+    <section class="ideas">
+        <h2>We bring your <span>ideas</span> to life<span>.</span></h2>
+        <p>Great ideas, beautifully executed & commercially sound.</p>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio">
+        <h2>My Projects</h2>
+        <div class="projects">
+            <div class="project">
+                <h3>Project 1: Branding Design</h3>
+                <p>Designed a comprehensive branding package for a startup, including logos, brochures, and business cards.</p>
+            </div>
+            <div class="project">
+                <h3>Project 2: Website Mockup</h3>
+                <p>Created a modern and user-friendly UI/UX mockup for an e-commerce website.</p>
+            </div>
+            <div class="project">
+                <h3>Project 3: Social Media Graphics</h3>
+                <p>Developed engaging and visually appealing graphics for various social media campaigns.</p>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
